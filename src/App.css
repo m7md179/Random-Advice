@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap");
+body {
+  background-color: #202632;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  width: 500px;
+  position: relative;
+  background-color: #313a49;
+  padding-bottom: 50px;
+}
+.advice-num {
+  color: #53ffab;
+  letter-spacing: 6px;
+  font-family: "League Spartan", sans-serif;
+  padding-top: 10px;
+}
+.advice {
+  width: 70%;
+  height: 30%;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #53ffab;
+  border-radius: 25px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dice:hover {
+  -webkit-box-shadow: 0px 0px 39px 4px rgba(50, 121, 94, 0.73);
+  -moz-box-shadow: 0px 0px 39px 4px rgba(50, 121, 94, 0.73);
+  box-shadow: 0px 0px 39px 4px rgba(50, 121, 94, 0.73);
+}
